@@ -1,0 +1,66 @@
+*
+{
+padding: 0;
+margin:none;
+}
+body
+{
+    background-color: black;
+    height: 100vh;
+}
+
+.par
+{
+    font-size: 85px;
+    color: white;
+    font-weight: bold;
+}
+
+.values
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.values1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+button
+{
+    width:40px;
+    height:40px;
+    padding:5px;
+    border:none;
+    border-radius: 30px;
+    transition: all 40ms linear;
+}
+
+.btn1
+{
+    background-color: red;
+}
+
+.button-group
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:35px;
+}
+
+button:active
+{
+    transform: scale(0.8);
+}
+
+.semi
+{
+    font-size: 85px;
+    color: white;
+}
